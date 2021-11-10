@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: background-color 0.5s ease-in-out;
+  background-image: url('wallpaper.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.container img {
+  height: 100vh;
+  border: 2px black solid;
+}
+
+.image1 {
+display: none;
+margin: auto;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.bottom2 {
+  justify-self: right;
+  align-self: center;
+}
+
+.bottom2 button {
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  padding: 5px;
+  background-color: #4134a3;
+}
+.bottom1 {
+  margin-left: 45%;
+}
